@@ -97,7 +97,7 @@ def get_catalog():
     for cat in cats:
         print(cat['name'])
         get_all_subcats_pc(cat['subcats'])
-        write_to_json(cats, 'categories.json')
+        write_to_json(cats, 'categoriesx.json')
 
        
 
